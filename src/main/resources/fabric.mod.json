@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "showhunger",
+  "version": "${version}",
+  "name": "Show Hunger",
+  "description": "show hunger bars when in a boat / minecart",
+  "authors": [
+    "KingContaria"
+  ],
+  "contact": {
+    "homepage": "https://github.com/KingContaria"
+  },
+  "license": "CC0-1.0",
+  "environment": "client",
+  "mixins": [
+    "showhunger.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.0",
+    "minecraft": ">=1.8.0",
+    "minecraft": "<=1.10.2"
+  }
+}
