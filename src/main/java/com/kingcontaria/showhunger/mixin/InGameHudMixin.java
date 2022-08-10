@@ -11,7 +11,7 @@ import org.spongepowered.asm.mixin.injection.ModifyVariable;
 
 public class InGameHudMixin {
 
-    @ModifyVariable(method = "renderStatusBars", at = @At("STORE"), ordinal = 0)
+    @ModifyVariable(method = "method_5587", at = @At("STORE"), ordinal = 0)
     private Entity showMyHunger(Entity entity) {
         if (!(entity instanceof LivingEntity)) {
             return null;
